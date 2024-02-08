@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Plant</title>
+		<link rel="icon" type="image/x-icon" href="images/e.png">
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://kit.fontawesome.com/437c0e9ceb.js" crossorigin="anonymous"></script>
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h1>Reality Portal</h1>
+						<p>Virtual Reality &nbsp;&bull;&nbsp; Augmented Reality &nbsp;&bull;&nbsp; Object Viewer &nbsp;&bull;&nbsp; Google Classroom </p>
+						<nav>
+							<ul>
+								<li><a href="https://sketchfab.com/models/4be653ec2e904a368ac84b6df0677e3d/embed?autostart=1&cardboard=1&internal=1&tracking=0&ui_infos=0&ui_snapshots=1&ui_stop=0&ui_watermark=0" class="fa-solid fa-vr-cardboard"><span class="label">Virtual Reality</span></a></li>
+								<li><a href="plant/AR/AR.html" class="bi bi-badge-ar"><span class="label">Augmented Reality</span></a></li>
+								<li><a href="plant/plantmodel.html" class="bi bi-box"><span class="label">SketchFab</span></a></li>
+								<li><a href="http://classroom.google.com/" class="bi bi-person-square"><span class="label">Email</span></a></li>
+							
+							</ul>
+						</nav>
+					</header>
+
+				
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+		
+	</body>
+</html>
