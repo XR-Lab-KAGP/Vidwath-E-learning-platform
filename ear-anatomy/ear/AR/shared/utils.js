@@ -33,7 +33,7 @@ class Reticle extends THREE.Object3D {
 }
 
 
-window.gltfLoader.load("scene/ear.gltf", function(gltf) {
+window.gltfLoader.load("https://github.com/XR-Lab-KAGP/Vidwath-E-learning-platform/blob/main/ear-anatomy/ear/AR/scene/ear.gltf", function(gltf) {
 //window.gltfLoader.load("https://immersive-web.github.io/webxr-samples/media/gltf/sunflower/sunflower.gltf", function(gltf) {
   const flower = gltf.scene.children.find(c => c.name === 'scene')
   //flower.castShadow = true;
