@@ -55,7 +55,7 @@ window.DemoUtils = {
     // without lights in our scenes. Let's add an ambient light
     // so our material can be visible, as well as a directional light
     // for the shadow.
-    const light = new THREE.AmbientLight(0xffffff, 1);
+    const light = new THREE.AmbientLight(0xffffff, 1.1);
     const directionalLight = new THREE.DirectionalLight(0xffffff, 0.7);
     directionalLight.position.set(10, 15, 10);
 
