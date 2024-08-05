@@ -33,7 +33,7 @@ class Reticle extends THREE.Object3D {
 }
 
 
-window.gltfLoader.load("scene/ear.gltf", function(gltf) {
+window.gltfLoader.load("scene/ear.glb", function(gltf) {
 //window.gltfLoader.load("https://immersive-web.github.io/webxr-samples/media/gltf/sunflower/sunflower.gltf", function(gltf) {
   const flower = gltf.scene.children.find(c => c.name === 'scene')
   //flower.castShadow = true;
@@ -55,8 +55,8 @@ window.DemoUtils = {
     // without lights in our scenes. Let's add an ambient light
     // so our material can be visible, as well as a directional light
     // for the shadow.
-    const light = new THREE.AmbientLight(0xffffff, 1);
-    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.3);
+    const light = new THREE.AmbientLight(0xffffff, 1.1);
+    const directionalLight = new THREE.DirectionalLight(0xffffff, 0.7);
     directionalLight.position.set(10, 15, 10);
 
     // We want this light to cast shadow.
