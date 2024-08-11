@@ -1,0 +1,11 @@
+Model Information:
+* title:	VernierCaliper
+* source:	https://sketchfab.com/3d-models/verniercaliper-205ebdec7304449bb8d2effbfe272ec8
+* author:	kg007 (https://sketchfab.com/kg007)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "VernierCaliper" (https://sketchfab.com/3d-models/verniercaliper-205ebdec7304449bb8d2effbfe272ec8) by kg007 (https://sketchfab.com/kg007) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
