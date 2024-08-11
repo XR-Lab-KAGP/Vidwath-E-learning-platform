@@ -282,6 +282,7 @@ audios.push(document.getElementById('audio5'))
 audios.push(document.getElementById('audio6'))
 audios.push(document.getElementById('audio7'))
 audios.push(document.getElementById('audio8'))
+audios.push(document.getElementById('audio9'))
 
 // This function loops over each sample in the array and pauses it, unless
 // the sampleID matches the index of the sample in the array
